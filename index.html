@@ -26,8 +26,19 @@
    .descript{
     grid-area: main
    }
-   #image{
-    
+  .container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
+   <div class="container">
+  <div class="title"> </div>
+  <div class="descript"> </div>
+</div>
   </style>
   </div>
   </head>
