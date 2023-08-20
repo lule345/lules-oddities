@@ -13,16 +13,26 @@
     padding:0;
     margin:0;
    } 
+   
    h1{color:white;}
    #subtitle{color:grey;}
    h2{color:white;}
    h3{color:white;}
    p{color:white;}
+
+   .title{
+    grid-area: header
+   }
+   .descript{
+    grid-area: main
+   }
+   #image{
+    
   </style>
   </div>
   </head>
  <body>
-  <div>
+  <div class="title">
   <h1>Welcome to Lule's Oddiies</h1>
   <h2 id="subtitle">Currently this website is under construction. For now, Refer to GitHub Repo below.</h2>
   <audio controls autoplay>
@@ -30,11 +40,11 @@
   </audio>
   </div>
   <br>
-  <div>
+  <div class="descript">
   <h2>For <em>The Directory</em>, click <a href="https://lules-oddities.vercel.app/directory.html" target="_self"> here</a>
   <br>
   For the <em>GitHub Repository</em>, click <a href="https://github.com/lule345/html-test-site" target="_blank"> here</a></h2>
   </div>
-  <img src="img/F37Q398XAAAhi-f.jpg">
+  <img src="img/F37Q398XAAAhi-f.jpg" id="image">
  </body>
  </html>
