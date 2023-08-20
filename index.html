@@ -29,9 +29,33 @@
    #image{
     display: grid;
     grid-area: sidebar;
+
+    .title {
+  grid-area: header;
+}
+.descript {
+  grid-area: main;
+}
+.image {
+  grid-area: sidebar;
+}
+.item-d {
+  grid-area: footer;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main . sidebar"
+    "footer footer footer footer";
+}
   </style>
   </head>
  <body>
+  <div class="container">
   <div class="title">
   <h1>Welcome to Lule's Oddiies</h1>
   <h2 id="subtitle">Currently this website is under construction. For now, Refer to GitHub Repo below.</h2>
@@ -46,5 +70,6 @@
   For the <em>GitHub Repository</em>, click <a href="https://github.com/lule345/html-test-site" target="_blank"> here</a></h2>
   </div>
   <img src="img/F37Q398XAAAhi-f.jpg" id="image">
+  </div>
  </body>
  </html>
