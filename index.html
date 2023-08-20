@@ -19,39 +19,9 @@
    h3{color:white;}
    p{color:white;}
 
-   .title{
-    grid-area: header;
-   }
-   .descript{
-    display: grid;
-    grid-area: main;
-   }
-   #image{
-    display: grid;
-    grid-area: sidebar;
-
-    .title {
-  grid-area: header;
-}
-.descript {
-  grid-area: main;
-}
-.image {
-  grid-area: sidebar;
-}
-.item-d {
-  grid-area: footer;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "header header header header"
-    "main main . sidebar"
-    "footer footer footer footer";
-}
+ #image{
+  object-position: right 50px;
+ }
   </style>
   </head>
  <body>
