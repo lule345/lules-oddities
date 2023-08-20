@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>Lule's Oddities</title>
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-  <div class="css_stuff">
   <style> 
    body{
     background-image: url('https://raw.githubusercontent.com/lule345/html-test-site/main/img/matrix-code.gif');
@@ -21,26 +20,13 @@
    p{color:white;}
 
    .title{
-    grid-area: header
+    grid-area: header;
    }
    .descript{
-    grid-area: main
+    display: grid
+    grid-area: main;
    }
-  .container {
-  display: grid;
-  grid-template-columns: 50px 50px 50px 50px;
-  grid-template-rows: auto;
-  grid-template-areas: 
-    "header header header header"
-    "main main . sidebar"
-    "footer footer footer footer";
-}
-   <div class="container">
-  <div class="title"> </div>
-  <div class="descript"> </div>
-</div>
   </style>
-  </div>
   </head>
  <body>
   <div class="title">
