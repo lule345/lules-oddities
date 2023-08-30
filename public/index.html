@@ -42,6 +42,13 @@
   #subtitle{
    text-align: center;
   }
+  @font-face{
+   font-family: LCDFont;
+   src: url(https://lules-oddities.neocities.org/Linebeam.ttf);
+  }
+  .title{
+   font-family: LCDFont;
+  }
   
   </style>
   </head>
@@ -50,7 +57,7 @@
    <tbody>
     <tr>
      <td>
-      <h1 class="subtitle">Welcome to Lule's Oddities</h1>
+      <h1 class="subtitle" id="title">Welcome to Lule's Oddities</h1>
       <marquee behavior="scroll" direction="right" onmouseover="this.stop();" onmouseout="this.start();">
        <img src="https://lules-oddities.neocities.org/img/best_chrome.gif">
        <img src="https://lules-oddities.neocities.org/img/jquery.gif">
