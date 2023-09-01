@@ -1,0 +1,52 @@
+body{
+    background-image: url('https://lules-oddities.neocities.org/img/matrix-code.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+   } 
+   
+   h1{color:white;
+     text-align: center;
+     }
+   h2{color:white;}
+   h3{color:white;}
+   p{color:white;}
+   
+ .links{
+  text-align: left;
+ }
+ .image{
+  position:absolute;
+  right:150px;
+  top:120px;
+ }
+  tr{
+   border-bottom: 5px solid #454746;
+   border-top: 5px solid #454746;
+   border-left: 5px solid #454746;
+   border-right: 5px solid #454746;
+  }
+  .subtitle{
+   text-align: center;
+  }
+ @font-face{
+   font-family: LCDFont;
+   src: url(https://lules-oddities.neocities.org/fonts/Linebeam.ttf);
+  }
+  @font-face{
+   font-family: barcode;
+   src: url(https://lules-oddities.neocities.org/fonts/Paskowy.ttf);
+  }
+  @font-face{
+   font-family: roboto;
+   src: url(https://lules-oddities.neocities.org/fonts/Roboto-Regular.ttf);
+  }
+  
+  #title{
+   font-family: LCDFont;
+  }
+  #h2{
+   color:grey;
+   font-family: roboto;
+  }
