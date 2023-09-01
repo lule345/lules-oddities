@@ -50,6 +50,10 @@ body{
    color:grey;
    font-family: roboto;
   }
+  #h3{
+   color:white;
+   font-family: roboto;
+  }
 @keyframes marquee {
     0%{
         transform: translateX(0%);
