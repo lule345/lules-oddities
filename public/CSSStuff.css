@@ -58,7 +58,3 @@ body{
         transform: translateX(-100%);
     }
 }
-#marquee{
-    white-space: nowrap;
-    animation: marquee 30s linear infinite;
-}
