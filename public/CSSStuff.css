@@ -57,7 +57,7 @@ body{
   }
 #ad{
     right: 10px;
-    position: absolute;
+    position: relative;
 }
 @keyframes marquee {
     0%{
