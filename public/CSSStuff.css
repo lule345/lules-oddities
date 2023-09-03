@@ -58,9 +58,6 @@ body{
 #ad{
     float: right;
 }
-th, td {
-  border-style: groove
-}
 @keyframes marquee {
     0%{
         transform: translateX(0%);
