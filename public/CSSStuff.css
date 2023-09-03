@@ -58,8 +58,8 @@ body{
 #ad{
     float: right;
 }
-#moon{
-    background-color: black;
+th, td {
+  border-style: groove
 }
 @keyframes marquee {
     0%{
