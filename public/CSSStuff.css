@@ -58,6 +58,9 @@ body{
 #ad{
     float: right;
 }
+tr {
+  border-bottom: 2px solid #ddd;
+}
 @keyframes marquee {
     0%{
         transform: translateX(0%);
