@@ -55,6 +55,9 @@ body{
    font-family: roboto;
    text-align: center;
   }
+#ad{
+    right: 10px;
+}
 @keyframes marquee {
     0%{
         transform: translateX(0%);
