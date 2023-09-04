@@ -58,7 +58,7 @@ body{
 #ad{
     float: right;
 }
-table {
+table, th, td {
   border: 1px solid white;
 }
 @keyframes marquee {
