@@ -101,6 +101,8 @@ bgm.play().catch(() => {
     document.addEventListener("click", () => bgm.play(), { once: true });
 });
    bgm.loop = true;
+//Add entry for key="page_view"
+localStorage.setItem("page_view", 1);
   </script>
  </body>
  </html>
