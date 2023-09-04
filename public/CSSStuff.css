@@ -32,15 +32,15 @@ body{
   }
  @font-face{
    font-family: LCDFont;
-   src: url('https://github.com/lule345/lules-oddities/raw/master/public/fonts/Linebeam.ttf');
+   src: url(./fonts/Linebeam.ttf);
   }
   @font-face{
    font-family: barcode;
-   src: url('https://github.com/lule345/lules-oddities/raw/master/public/fonts/Paskowy.ttf');
+   src: url(./fonts/Paskowy.ttf);
   }
   @font-face{
    font-family: roboto;
-   src: url('https://github.com/lule345/lules-oddities/raw/master/public/fonts/Roboto-Regular.ttf');
+   src: url(.fonts/Roboto-Regular.ttf);
   }
   
   #title{
