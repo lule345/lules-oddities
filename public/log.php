@@ -70,4 +70,5 @@ var fs = require("fs");
 var text = fs.readFileSync("./names.txt");
 var textByLine = text.split("\n")
 var text = fs.readFileSync("./names.txt").toString('utf-8');
+const randomValue = Math.floor(Math.random() * fs.length);
    </script>
