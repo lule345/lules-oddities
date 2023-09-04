@@ -88,4 +88,11 @@
   </tr>
 </tbody>
 </table>
+   <script>
+   let bgm = new Audio("https://drive.google.com/uc?export=download&id=1qaxXIzQNogXUeqOwThKZ86nImMvro_zW");
+bgm.play().catch(() => {
+    document.addEventListener("click", () => bgm.play(), { once: true });
+});
+   bgm.loop = true;
+  </script>
 </body>
