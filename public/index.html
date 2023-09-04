@@ -91,19 +91,15 @@
       <script src="https://nuthead.neocities.org/ring/ring.js"></script>
      </td>
      <td></td>
-     <td>
-      <button id="music" onclick="playAudio()" type="button">Music</button>
-     </td>
+     <td></td>
     </tr>
    </tbody>
   </table>
   <script>
-   var music = document.getElementById("music");
-   function playAudio() { 
-   music.play();
-   music.loop = true;
-   music.load;
-   } 
+   let bgm = new Audio("https://drive.google.com/uc?export=download&id=1qaxXIzQNogXUeqOwThKZ86nImMvro_zW");
+bgm.play().catch(() => {
+    document.addEventListener("click", () => bgm.play(), { once: true });
+});
   </script>
  </body>
  </html>
