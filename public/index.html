@@ -17,7 +17,9 @@
   </style>
   </head>
  <body>
-  <div onclick="audioplay()"
+  <audio id="music">
+   <source src="https://drive.google.com/uc?export=download&id=1qaxXIzQNogXUeqOwThKZ86nImMvro_zW" type="audio/mp3">
+  </audio>
   <div class="main">
   <table>
    <tbody>
@@ -89,9 +91,18 @@
       <script src="https://nuthead.neocities.org/ring/ring.js"></script>
      </td>
      <td></td>
-     <td></td>
+     <td>
+      <button id="music" onclick="playAudio()" type="button">Music</button>
+     </td>
     </tr>
    </tbody>
   </table>
+  <script>
+   var music = document.getElementById("music"); 
+
+   function playAudio() { 
+   music.play(); 
+   } 
+  </script>
  </body>
  </html>
