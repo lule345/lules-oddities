@@ -65,6 +65,8 @@
      </div>
     </td>
    </tr>
+ </tbody>
+</table>
    <script>
 var fs = require("fs");
 var text = fs.readFileSync("./names.txt");
@@ -72,3 +74,14 @@ var textByLine = text.split("\n")
 var text = fs.readFileSync("./names.txt").toString('utf-8');
 const randomValue = Math.floor(Math.random() * fs.length);
    </script>
+<!-- Begin Web-Stat code v 7.0 -->
+<span id="wts2140742"></span>
+<script>var wts=document.createElement('script');wts.async=true;
+wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+wts.onload = function(){ wtslog7(2140742,5); };
+</script><noscript><a href="https://www.web-stat.com">
+<img src="https://app.ardalio.com/7/5/2140742.png" 
+alt="Web-Stat site statistics"></a></noscript>
+<!-- End Web-Stat code v 7.0 -->
+  </body>
+ </html>
