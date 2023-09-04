@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://lules-oddities.neocities.org/img/matrix-code.gif');
+    background-image: url('https://github.com/lule345/lules-oddities/blob/master/public/img/matrix-code.gif?raw=true');
     background-size: cover;
     height: 100vh;
     padding:0;
@@ -32,15 +32,15 @@ body{
   }
  @font-face{
    font-family: LCDFont;
-   src: url(https://lules-oddities.neocities.org/fonts/Linebeam.ttf);
+   src: url(https://github.com/lule345/lules-oddities/raw/master/public/fonts/Linebeam.ttf);
   }
   @font-face{
    font-family: barcode;
-   src: url(https://lules-oddities.neocities.org/fonts/Paskowy.ttf);
+   src: url(https://github.com/lule345/lules-oddities/raw/master/public/fonts/Paskowy.ttf);
   }
   @font-face{
    font-family: roboto;
-   src: url(https://lules-oddities.neocities.org/fonts/Roboto-Regular.ttf);
+   src: url(https://github.com/lule345/lules-oddities/raw/master/public/fonts/Roboto-Regular.ttf);
   }
   
   #title{
