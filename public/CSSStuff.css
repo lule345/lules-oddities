@@ -58,8 +58,8 @@ body{
 #ad{
     float: right;
 }
-tr {
-  border-bottom: 2px solid #ddd;
+table, th, td {
+  border: 1px solid;
 }
 @keyframes marquee {
     0%{
