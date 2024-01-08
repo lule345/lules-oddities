@@ -46,7 +46,7 @@ body{
   #title{
    font-family: LCDFont;
   }
-  #h2{
+  .h2{
    color:grey;
    font-family: roboto;
   }
