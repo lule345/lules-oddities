@@ -58,11 +58,8 @@ body{
 #ad{
     float: right;
 }
-@keyframes marquee {
-    0%{
-        transform: translateX(0%);
-    }
-    100%{
-        transform: translateX(-100%);
-    }
+#blogdir{
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
