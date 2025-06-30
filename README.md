@@ -7,3 +7,5 @@ Half way done, Just need to fix some stuff, add some fonts and then finally put 
 
 2/22/2024:
 I'd say the website is complete, though the "blog" in there is pretty much dead as I'm too lazy to update it. Enjoy it if you want, and please contribute to this project by creating/solving issues and creating pull requests!
+
+30/06/2025: moved to https://gitlab.com/lule345/lules-oddities
